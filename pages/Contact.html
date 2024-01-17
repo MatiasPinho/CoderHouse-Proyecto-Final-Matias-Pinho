@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="../index.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
@@ -24,8 +24,8 @@
         <ul>
           <li class="nav-item active"><a href="../index.html">Inicio</a></li>
           <li class="nav-item"><a href="#">Tienda</a></li>
-          <li class="nav-item"><a href="#">Nosotros</a></li>
-          <li class="nav-item"><a href="./Contact.html">Contactanos</a></li>
+          <li class="nav-item"><a href="./about.html">Nosotros</a></li>
+          <li class="nav-item"><a href="#">Contactanos</a></li>
           <li class="nav-item"><a href="../pages/reviews.html">Reseñas</a></li>
         </ul>
         <span>
@@ -71,54 +71,67 @@
       </nav>
     </header>
     <main>
-      <section class="about-container">
-        <section class="about-content">
-          <article class="about-paragraph-mission-container">
-            <article class="about-paragraph-container">
-              <h1 class="about-title">¿Quienes somos?</h1>
-              <p>
-                Bienvenido a Suavity, un espacio donde la elegancia y la
-                comodidad convergen para ofrecerte experiencias únicas.
-              </p>
-              <p>
-                En Suavity, nos dedicamos a brindar productos y servicios que
-                reflejen nuestro compromiso con la calidad y el bienestar.
-              </p>
-            </article>
-            <article class="mision-container">
-              <h4 class="mision-title">Nuestra mision</h4>
-              <div class="mision-content">
-                <ul>
-                  <li>
-                    <span></span>
-                    <p>
-                      Proporcionar soluciones que no solo resalten tu estilo
-                      individual, sino que también mejoren tu bienestar diario
-                    </p>
-                  </li>
-                  <li>
-                    <span></span>
-                    <p>
-                      Ofrecer productos que no solo son visualmente atractivos,
-                      sino que también resisten el paso del tiempo.
-                    </p>
-                  </li>
-                  <li>
-                    <span></span>
-                    <p>
-                      Nuestro equipo está comprometido a proporcionar una
-                      atención al cliente excepcional y un servicio
-                      personalizado.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </article>
-          </article>
-          <div class="mision-h5">
-            <h5>SUAVIFY</h5>
-          </div>
-        </section>
+      <section class="contact-container">
+        <article class="contact-form">
+          <form class="contact-form-form">
+            <input
+              type="text"
+              class="contact-form-input"
+              placeholder="Tu nombre"
+              id="name"
+              name="name"
+              aria-label="name"
+            />
+            <input
+              type="text"
+              class="contact-form-input"
+              placeholder="Tu apellido"
+              id="surname"
+              name="surname"
+              aria-label="surname"
+            />
+            <input
+              type="email"
+              class="contact-form-input"
+              placeholder="Ingresa tu email"
+              id="email"
+              name="email"
+              aria-label="email"
+            />
+            <label for="fileInput" class="custom-file-input">
+              <span class="custom-file-icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <path
+                    d="M26.875 15H23.125C22.0912 15 21.25 15.8413 21.25 16.875C21.25 18.5987 19.8487 20 18.125 20H11.875C10.1512 20 8.75 18.5987 8.75 16.875C8.75 15.8413 7.90875 15 6.875 15H3.125C1.40125 15 0 16.4013 0 18.125V24.375C0 27.4762 2.52375 30 5.625 30H24.375C27.4762 30 30 27.4762 30 24.375V18.125C30 16.4013 28.5987 15 26.875 15ZM28.75 24.375C28.75 26.7875 26.7875 28.75 24.375 28.75H5.625C3.2125 28.75 1.25 26.7875 1.25 24.375V18.125C1.25 17.0912 2.09125 16.25 3.125 16.25H6.875C7.21875 16.25 7.5 16.5312 7.5 16.875C7.5 19.2875 9.4625 21.25 11.875 21.25H18.125C20.5375 21.25 22.5 19.2875 22.5 16.875C22.5 16.5312 22.7812 16.25 23.125 16.25H26.875C27.9088 16.25 28.75 17.0912 28.75 18.125V24.375ZM9.5575 5.54875C9.31375 5.305 9.31375 4.90875 9.5575 4.665L13.6737 0.54875C13.9775 0.245 14.365 0.09875 14.7625 0.0475C14.8363 0.0175 14.915 0 15 0C15.085 0 15.1637 0.0175 15.2375 0.0475C15.635 0.09875 16.0225 0.245 16.3263 0.54875L20.4425 4.665C20.6863 4.90875 20.6863 5.305 20.4425 5.54875C20.32 5.67125 20.16 5.73125 20 5.73125C19.84 5.73125 19.68 5.67 19.5575 5.54875L15.625 1.61625V13.125C15.625 13.47 15.345 13.75 15 13.75C14.655 13.75 14.375 13.47 14.375 13.125V1.61625L10.4425 5.54875C10.1988 5.7925 9.80125 5.7925 9.5575 5.54875Z"
+                    fill="white"
+                  /></svg
+              ></span>
+              <span class="custom-file-input-label">Tu curriculum</span>
+              <input type="file" id="fileInput" name="archivo" />
+            </label>
+            <input type="button" value="Enviar" />
+          </form>
+        </article>
+        <article class="contact-paragraph">
+          <h2>Trabaja con nosotros</h2>
+          <p>
+            ¿Buscas unirte a un equipo <strong>apasionado</strong> y
+            <strong> dinámico?</strong>
+            Suavity estamos en constante crecimiento y buscamos talento como el
+            tuyo.
+          </p>
+          <p>
+            Si te apasiona la innovación y el trabajo colaborativo, ¡<strong
+              >queremos conocerte</strong
+            >!
+          </p>
+        </article>
       </section>
     </main>
     <footer class="footer">

@@ -145,7 +145,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: calc(100vh - 4rem);
   margin-top: 0;
   align-content: center;
   justify-content: center;
@@ -770,5 +770,261 @@ footer p {
   .reviews-card-img-container {
     width: 140px;
     height: 148px;
+  }
+}
+
+/* about.html */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 1rem 0;
+}
+
+.about-title {
+  color: var(--primary);
+  font-family: "Poiret One";
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--terciary);
+  letter-spacing: 5.6px;
+  margin-top: 2rem;
+  color: var(--secondary);
+  line-height: 2;
+  width: 15ch;
+}
+
+.about-paragraph-mission-container {
+  display: flex;
+
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 57ch;
+}
+
+.mision-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.mision-content {
+  display: flex;
+  gap: 1.2rem;
+  border-left: 1px solid var(--terciary);
+}
+
+.mision-line {
+  width: 1px;
+  background-color: var(--terciary);
+}
+
+.mision-title {
+  color: var(--primary);
+  font-family: "Poiret One";
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--terciary);
+  letter-spacing: 5.6px;
+  margin-top: 2rem;
+  color: var(--secondary);
+  line-height: 2;
+  width: 13ch;
+}
+
+.mision-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  margin-left: 14px;
+}
+
+.mision-container li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.mision-container li p {
+  max-width: 50ch;
+}
+
+.mision-container span {
+  display: flex;
+  border-radius: 50%;
+  padding: 0.6rem;
+  outline: 1px solid var(--terciary);
+}
+
+.about-container h5 {
+  transform: rotate(90deg);
+  font-family: "Poiret One";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 14.4px;
+}
+
+.mision-h5 {
+  width: 0px;
+  height: 72%;
+}
+
+@media screen and (max-width: 720px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-container {
+    height: auto;
+  }
+
+  .mision-h5 {
+    display: none;
+  }
+
+  .about-title {
+    margin: 0 auto;
+  }
+
+  .about-paragraph-container {
+    max-width: 46ch;
+    margin: 0 auto;
+    width: 87%;
+  }
+
+  .mision-title {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+/* Contact.html */
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  justify-content: flex-start;
+}
+
+.contact-form-input {
+  padding: 1rem 0;
+  width: 200px;
+  border: none;
+  border-bottom: 2px solid var(--terciary);
+  outline: none;
+  background-color: transparent;
+  color: var(--secondary);
+  font-size: 18px;
+}
+
+.contact-form-input::placeholder {
+  font-size: 18px;
+  color: var(--secondary);
+}
+
+.contact-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+.contact-paragraph h2 {
+  color: var(--primary);
+  font-family: "Poiret One";
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--terciary);
+  letter-spacing: 5.6px;
+  color: var(--secondary);
+  line-height: 2;
+  width: 17ch;
+}
+
+.contact-paragraph p {
+  max-width: 30ch;
+  font-size: 18px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 158px;
+}
+
+input[type="button"] {
+  background-color: var(--terciary);
+  padding: 0.8rem 0.5rem;
+  width: 150px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 720px) {
+  .contact-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    row-gap: 3.3rem;
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-paragraph h2 {
+    font-size: 18px;
+    width: 18ch;
+    text-align: center;
+  }
+
+  .contact-paragraph p {
+    font-size: 16px;
+    max-width: 23ch;
+    margin: 0 auto;
+  }
+
+  .contact-form-input {
+    font-size: 16px;
+  }
+
+  .contact-form-input::placeholder {
+    font-size: 16px;
   }
 }
