@@ -893,6 +893,7 @@ footer p {
 
   .about-container {
     height: auto;
+    padding: 4rem 0;
   }
 
   .mision-h5 {
@@ -904,13 +905,16 @@ footer p {
   }
 
   .about-paragraph-container {
-    max-width: 46ch;
+    max-width: 35ch;
     margin: 0 auto;
-    width: 87%;
   }
 
   .mision-title {
     margin: 0 auto;
+  }
+
+  .about-paragraph-mission-container {
+    row-gap: 3rem;
   }
 }
 
