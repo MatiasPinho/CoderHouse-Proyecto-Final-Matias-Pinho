@@ -1152,6 +1152,7 @@ input[type="button"]:hover {
   gap: 5rem;
   flex-wrap: wrap;
   row-gap: 2rem;
+  transition: all 0.5s ease-in;
 }
 
 .buttons-container :nth-child(1) {
@@ -1164,6 +1165,18 @@ input[type="button"]:hover {
   cursor: pointer;
 }
 
+.buttons-container :nth-child(1):hover {
+  background-color: transparent;
+  color: var(--secondary);
+  outline: 0.1px solid var(--terciary);
+  transition: all 0.5s ease-in;
+}
+
+.buttons-container :nth-child(2):hover {
+  transition: all 0.5s ease-in;
+  background-color: var(--terciary);
+  color: var(--primary);
+}
 .buttons-container :nth-child(2) {
   background-color: transparent;
   padding: 1rem 0.8rem;
