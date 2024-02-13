@@ -128,6 +128,47 @@ nav ul li:hover a::before {
   color: #ffff;
 }
 
+.hamburger-menu{
+  z-index: 1;
+}
+
+.nav_input{
+  display: none;
+}
+
+.nav_input:checked + .nav_menu{
+  left: 0;
+}
+
+/* Cambia el color de fondo del contenedor del menú hamburguesa cuando el checkbox está marcado */
+/* Cambia el color de fondo del contenedor del menú hamburguesa cuando el checkbox está marcado */
+.nav_input:checked + .hamburger-menu svg path {
+  fill: red; /* Cambiar a color rojo cuando el input está marcado */
+}
+.nav_menu{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  left: 103%;
+  background-color:#000000f7;
+  top: 0;
+  width: 100%;
+  transition: 0.5s ease all;
+  height: 100vh;
+  
+  list-style: none;
+  padding-top: 5rem;
+}
+
+.nav_menu a{
+  text-decoration: underline;
+  color: white;
+  font-size: 30px;
+}
+
 /* Main */
 
 @keyframes moveDown {
@@ -1090,11 +1131,11 @@ input[type="button"]:hover {
 }
 
 .shop-products-show {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
   gap: 2rem;
   max-width: 80%;
   margin: 0 auto;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -1102,6 +1143,7 @@ input[type="button"]:hover {
   display: flex;
   width: 300px;
   height: 450px;
+  padding: 0 1.3rem;
   border-radius: 8px;
   border: 2px solid var(--terciary);
   justify-content: space-evenly;
