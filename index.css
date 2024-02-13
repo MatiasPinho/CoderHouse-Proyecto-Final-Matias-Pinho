@@ -1132,9 +1132,9 @@ input[type="button"]:hover {
 
 .shop-products-show {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-  gap: 2rem;
-  max-width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
+  gap: 3.5rem;
+  max-width: 85%;
   margin: 0 auto;
   justify-content: center;
 }
