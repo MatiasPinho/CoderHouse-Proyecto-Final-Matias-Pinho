@@ -3,9 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../index/index.css" />
     <title>Document</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta
+      name="keywords"
+      content="moda, ropa, tienda de ropa, tendencias de moda, ropa de alta calidad, estilo, elegancia, comodidad, hombres, mujeres, niños, moda masculina, moda femenina, moda infantil, ropa de calidad, tendencias de temporada, estilo atemporal, Suavify."
+    />
+    <meta
+      name="description"
+      content="Descubre la última moda en Suavify, tu destino para encontrar ropa de alta calidad y estilo incomparable. Explora nuestra amplia selección de prendas para hombres, mujeres y niños, diseñadas para ofrecer comodidad y elegancia en cada ocasión. Desde tendencias de temporada hasta clásicos atemporales, Suavify te ofrece todo lo que necesitas para lucir y sentirte increíblemente bien."
+    />
   </head>
   <body>
     <header>
@@ -23,10 +31,14 @@
           />
         </svg>
         <ul>
-          <li class="nav-item "><a href="../index.html">Inicio</a></li>
-          <li class="nav-item active"><a href="../pages/Shop.html">Tienda</a></li>
+          <li class="nav-item"><a href="../index.html">Inicio</a></li>
+          <li class="nav-item active">
+            <a href="../pages/Shop.html">Tienda</a>
+          </li>
           <li class="nav-item"><a href="../pages/about.html">Nosotros</a></li>
-          <li class="nav-item"><a href="../pages/Contact.html">Contactanos</a></li>
+          <li class="nav-item">
+            <a href="../pages/Contact.html">Contactanos</a>
+          </li>
           <li class="nav-item"><a href="../pages/reviews.html">Reseñas</a></li>
         </ul>
         <span>
@@ -55,9 +67,9 @@
             <p>EN</p>
           </span>
         </span>
-       
-          <label class="hamburger-menu" for="menu">
-            <svg
+
+        <label class="hamburger-menu" for="menu">
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="18"
@@ -69,15 +81,19 @@
               fill="white"
             />
           </svg>
-          </label>
-          <input class="nav_input" type="checkbox" name="" id="menu">
-          <ul class="nav_menu">
-            <li class="nav-item active"><a class="active" href="../index.html">Inicio</a></li>
-            <li class="nav-item"><a href="../pages/Shop.html">Tienda</a></li>
-            <li class="nav-item"><a href="../pages/about.html">Nosotros</a></li>
-            <li class="nav-item"><a href="../pages/Contact.html">Contactanos</a></li>
-            <li class="nav-item"><a href="../pages/reviews.html">Reseñas</a></li>
-          </ul>
+        </label>
+        <input class="nav_input" type="checkbox" name="" id="menu" />
+        <ul class="nav_menu">
+          <li class="nav-item active">
+            <a class="active" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item"><a href="../pages/Shop.html">Tienda</a></li>
+          <li class="nav-item"><a href="../pages/about.html">Nosotros</a></li>
+          <li class="nav-item">
+            <a href="../pages/Contact.html">Contactanos</a>
+          </li>
+          <li class="nav-item"><a href="../pages/reviews.html">Reseñas</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -103,8 +119,8 @@
       </svg>
       <section class="shop-container">
         <div class="buttons-container">
-          <button class="button-shop">Ordenar por:</button>
-          <button class="button-shop">Filtrar por:</button>
+          <button class="button-shop-order">Ordenar por:</button>
+          <button class="button-shop-filter">Filtrar por:</button>
         </div>
         <article class="shop-products-show">
           <div class="shop-card">
@@ -113,99 +129,82 @@
               Redefine tu comodidad con nuestra exclusiva camiseta SuavePro.
             </p>
             <img
-              src="../assets/img/hero_image.png"
+              src="../assets/img/shop_t_shirt1.png"
               alt="Imagen Camiseta SuavePro"
             />
-            <span
-              ><p>Ropa</p>
-              <p>$19.99</p></span
-            >
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$19.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Crema Hidratante Deluxe</h5>
-            <p>Descubre la hidratación suprema con nuestra crema Deluxe.</p>
-            <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
-            />
-            <span
-              ><p>Belleza</p>
-              <p>$24.99</p></span
-            >
+            <h5>Chaqueta Vanguardista</h5>
+            <p>Sumérgete en la elegancia con nuestra chaqueta.</p>
+            <img src="../assets/img/shop_jacket2.png" alt="Imagen chaqueta" />
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$24.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Perfume Elegante</h5>
-            <p>Sumérgete en la elegancia con nuestro exclusivo perfume.</p>
-            <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
-            />
-            <span
-              ><p>Fragancia</p>
-              <p>$34.99</p></span
-            >
+            <h5>Suéter Ultraconfortable</h5>
+            <p>Sumérgete en la comodidad con nuestro suéter.</p>
+            <img src="../assets/img/shop_sweater3.png" alt="Imagen suéter" />
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$34.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Loción Corporal Frescura</h5>
-            <p>Experimenta la frescura con nuestra loción corporal premium.</p>
+            <h5>Conjunto Deportivo</h5>
+            <p>Disfruta de la comodidad de un conjunto deportivo.</p>
             <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
+              src="../assets/img/shop_jogging_suit4.png"
+              alt="Imagen conjunto deportivo"
             />
-            <span
-              ><p>Cuidado Personal</p>
-              <p>$18.99</p></span
-            >
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$18.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Shampoo Revitalizante</h5>
-            <p>Revitaliza tu cabello con nuestro shampoo de alta calidad.</p>
-            <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
-            />
-            <span
-              ><p>Cuidado del Cabello</p>
-              <p>$14.99</p></span
-            >
+            <h5>Vestido de Élite</h5>
+            <p>Sumérgete en la elegancia con nuestro vestido.</p>
+            <img src="../assets/img/shop_dress5.png" alt="Imagen vestido" />
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$14.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Aceite Facial Suavidad</h5>
-            <p>Logra una suavidad excepcional con nuestro aceite facial.</p>
-            <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
-            />
-            <span
-              ><p>Cuidado Facial</p>
-              <p>$28.99</p></span
-            >
+            <h5>Abrigo de Lujo</h5>
+            <p>Sumérgete en la comodidad con nuestro abrigo.</p>
+            <img src="../assets/img/shop_coat6.png" alt="Imagen Abrigo" />
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$28.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Jabón Artesanal Relax</h5>
-            <p>Relájate con nuestro jabón artesanal de fragancia relajante.</p>
+            <h5>Camisa Manga Larga</h5>
+            <p>Sumérgete en la elegancia con nuestra camisa manga larga.</p>
             <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
+              src="../assets/img/shop_long_sleeve7.png"
+              alt="Imagen Camisa manga larga"
             />
-            <span
-              ><p>Cuidado Personal</p>
-              <p>$12.99</p></span
-            >
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$12.99</p>
+            </span>
           </div>
           <div class="shop-card">
-            <h5>Kit Maquillaje Glamuroso</h5>
-            <p>
-              Logra un look glamuroso con nuestro exclusivo kit de maquillaje.
-            </p>
-            <img
-              src="../assets/img/hero_image.png"
-              alt="Imagen Camiseta SuavePro"
-            />
-            <span
-              ><p>Maquillaje</p>
-              <p>$42.99</p></span
-            >
+            <h5>Bufanda de Alta Gama</h5>
+            <p>Sumérgete en la elegancia con nuestra bufanda.</p>
+            <img src="../assets/img/shop_scarves8.png" alt="Imagen bufanda" />
+            <span>
+              <p class="shop-name">Ropa</p>
+              <p class="shop-price">$29.99"</p>
+            </span>
           </div>
         </article>
       </section>
