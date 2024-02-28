@@ -1267,8 +1267,10 @@ input[type=button]:hover {
     scale: 100%;
   }
 }
-.new-products-container,
-.catalog-offer-container,
+.image1,
+.image2,
+.image-text-button,
+.catalog-offer-image,
 .shop-card,
 .reviews-card {
   view-timeline: --image;
