@@ -1,9 +1,4 @@
-@charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@300;400;700&display=swap";
-/* Header */
-/* Cambia el color de fondo del contenedor del menú hamburguesa cuando el checkbox está marcado */
-/* Cambia el color de fondo del contenedor del menú hamburguesa cuando el checkbox está marcado */
-/* Main */
 @keyframes moveDown {
   0%, 100% {
     transform: translateY(0);
@@ -12,11 +7,6 @@
     transform: translateY(10px);
   }
 }
-/* Hero Section */
-/* reviews.html */
-/* about.html */
-/* Contact.html */
-/* Shop.html */
 :root {
   --primary: #171717;
   --secondary: #d9d9d9;
