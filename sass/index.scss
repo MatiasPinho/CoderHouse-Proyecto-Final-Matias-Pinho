@@ -13,6 +13,7 @@ $background-color_4: var(--terciary);
 $background-color_5: #000000f7;
 $background-color_6: transparent;
 $background-color_7: #fff6a4;
+$background-color_8: rgb(0 0 0 / 89%);
 
 @import "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@300;400;700&display=swap";
 
@@ -182,7 +183,7 @@ nav {
   flex-direction: column;
   gap: 2rem;
   left: 103%;
-  background-color: $background-color_5;
+  background-color: $background-color_8;
   top: 0;
   width: 100%;
   transition: 0.5s ease all;

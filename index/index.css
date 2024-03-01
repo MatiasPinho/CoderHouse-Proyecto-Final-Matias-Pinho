@@ -157,7 +157,7 @@ nav ul li:hover a::before {
   flex-direction: column;
   gap: 2rem;
   left: 103%;
-  background-color: rgba(0, 0, 0, 0.968627451);
+  background-color: rgba(0, 0, 0, 0.89);
   top: 0;
   width: 100%;
   transition: 0.5s ease all;
