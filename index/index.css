@@ -506,6 +506,7 @@ strong {
   position: relative;
   box-shadow: 7px 8px 15px -9px var(--terciary);
   background-color: var(--primary);
+  border-radius: 8px;
 }
 .catalog-offer-image img {
   width: 100%;
