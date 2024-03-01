@@ -1269,7 +1269,7 @@ input[type=button]:hover {
   animation-timeline: --image;
   animation-name: show;
   animation-range: entry 1% cover 50%;
-  animation-fill-mode: both;
+  animation-fill-mode: backwards;
 }
 
 /*# sourceMappingURL=index.css.map */
