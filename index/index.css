@@ -7,12 +7,6 @@
     transform: translateY(10px);
   }
 }
-:root {
-  --primary: #171717;
-  --secondary: #d9d9d9;
-  --terciary: #fff6a4;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -24,12 +18,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--secondary);
+  background-color: #d9d9d9;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--primary);
+  background-color: #171717;
 }
 
 html {
@@ -37,16 +31,16 @@ html {
 }
 
 body {
-  background-color: var(--primary);
+  background-color: #171717;
   font-family: "Poppins";
-  color: var(--secondary);
+  color: #d9d9d9;
   scroll-behavior: smooth;
 }
 
 header {
   width: 100vw;
   height: 4rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   font-size: 13px;
   position: fixed;
   z-index: 2;
@@ -90,7 +84,7 @@ header {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   transition: width 0.5s ease;
 }
 .nav-destokp ul li a {
@@ -132,7 +126,7 @@ nav ul li:hover a::before {
 }
 
 .active {
-  color: var(--terciary);
+  color: #fff6a4;
 }
 
 .hamburger-menu {
@@ -210,7 +204,7 @@ main {
   font-size: 120px;
   font-weight: 400;
   letter-spacing: 14.4px;
-  color: var(--terciary);
+  color: #fff6a4;
   animation: bounce-in-top 1s;
 }
 
@@ -221,12 +215,12 @@ main {
 }
 
 .hero-button {
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   border: none;
   padding: 0.9rem 0.6rem;
   width: 150px;
   border-radius: 4px;
-  color: var(--primary);
+  color: #171717;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
@@ -239,8 +233,8 @@ main {
 }
 .hero-button:hover {
   background-color: transparent;
-  color: var(--secondary);
-  outline: 0.1px solid var(--terciary);
+  color: #d9d9d9;
+  outline: 0.1px solid #fff6a4;
   transition: all 0.5s ease-in;
 }
 
@@ -263,7 +257,7 @@ main {
 
 .circle-scroll {
   border-radius: 50%;
-  border: 2px solid var(--terciary);
+  border: 2px solid #fff6a4;
   display: flex;
   min-height: 50px;
   min-width: 50px;
@@ -271,7 +265,7 @@ main {
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  color: var(--secondary);
+  color: #d9d9d9;
 }
 .circle-scroll p {
   height: 65%;
@@ -291,15 +285,15 @@ main {
 
 .new-products-title {
   align-self: flex-start;
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
   margin-left: 20px;
   margin-top: 2rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 2;
   width: fit-content;
 }
@@ -322,8 +316,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
-  background-color: var(--terciary);
+  box-shadow: 7px 8px 15px -9px #fff6a4;
+  background-color: #fff6a4;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
@@ -333,7 +327,7 @@ main {
 }
 .image1 p {
   position: absolute;
-  color: var(--secondary);
+  color: #d9d9d9;
   font-weight: bold;
 }
 .image1 img {
@@ -351,12 +345,12 @@ main {
   align-items: center;
   max-width: 250px;
   height: 430px;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
+  box-shadow: 7px 8px 15px -9px #fff6a4;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   position: relative;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -368,7 +362,7 @@ main {
 .image2 p {
   position: absolute;
   font-size: 20px;
-  color: var(--primary);
+  color: #171717;
   font-weight: bold;
 }
 .image2 img {
@@ -387,7 +381,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
@@ -400,11 +394,11 @@ main {
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
+  box-shadow: 7px 8px 15px -9px #fff6a4;
 }
 .image3 p {
   position: absolute;
-  color: var(--secondary);
+  color: #d9d9d9;
   font-weight: bold;
 }
 
@@ -426,7 +420,7 @@ main {
   background-color: transparent;
 }
 .image-text-button button a {
-  color: var(--secondary);
+  color: #d9d9d9;
   text-decoration: none;
 }
 
@@ -459,14 +453,14 @@ main {
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   z-index: 2;
-  fill: var(--terciary);
+  fill: #fff6a4;
 }
 .whatsapp-icon:hover {
   transform: scale(1.1);
 }
 
 strong {
-  color: var(--terciary);
+  color: #fff6a4;
   font-weight: 400;
 }
 
@@ -479,15 +473,15 @@ strong {
 
 .catalog-offer-title {
   align-self: flex-start;
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
   margin-left: 20px;
   margin-top: 2rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 2;
   width: fit-content;
 }
@@ -512,10 +506,10 @@ strong {
 .catalog-offer-image {
   width: 250px;
   height: 460px;
-  background-color: var(--secondary);
+  background-color: #d9d9d9;
   position: relative;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
-  background-color: var(--primary);
+  box-shadow: 7px 8px 15px -9px #fff6a4;
+  background-color: #171717;
   border-radius: 8px;
 }
 .catalog-offer-image img {
@@ -525,14 +519,14 @@ strong {
 }
 .catalog-offer-image a {
   text-decoration: none;
-  color: var(--primary);
+  color: #171717;
 }
 
 .button-offer-one {
   position: absolute;
   right: -30px;
   bottom: 0;
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   padding: 0.5rem 1rem;
   width: 100px;
   border: none;
@@ -551,7 +545,7 @@ strong {
   right: 0;
   left: -30px;
   top: 0;
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   padding: 0.5rem 1rem;
   width: 100px;
   border: none;
@@ -566,12 +560,12 @@ strong {
 
 .ancor-offer {
   text-decoration: none;
-  color: var(--secondary);
+  color: #d9d9d9;
 }
 
 footer {
-  border-top: 2px solid var(--terciary);
-  background-color: var(--primary);
+  border-top: 2px solid #fff6a4;
+  background-color: #171717;
   display: flex;
   padding: 2rem;
   justify-content: space-evenly;
@@ -582,10 +576,10 @@ footer .footer-title {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 14.4px;
-  color: var(--terciary);
+  color: #fff6a4;
 }
 footer p {
-  color: var(--secondary);
+  color: #d9d9d9;
 }
 
 .c1-footer {
@@ -614,14 +608,14 @@ footer p {
 }
 
 .reviews-container-title {
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
   margin-top: 2rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 3;
   width: fit-content;
 }
@@ -642,7 +636,7 @@ footer p {
   display: flex;
   flex-direction: column;
   height: 400px;
-  outline: 2px solid var(--terciary);
+  outline: 2px solid #fff6a4;
   border-radius: 8px;
   position: relative;
   gap: 1rem;
@@ -657,7 +651,7 @@ footer p {
   align-items: center;
   width: 167px;
   height: 174px;
-  background-color: var(--secondary);
+  background-color: #d9d9d9;
   border-radius: 8px;
   position: absolute;
   top: -80px;
@@ -711,14 +705,14 @@ footer p {
 }
 
 .about-title {
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
   margin-top: 2rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 2;
   width: fit-content;
 }
@@ -768,29 +762,29 @@ footer p {
   display: flex;
   border-radius: 50%;
   padding: 0.6rem;
-  outline: 1px solid var(--terciary);
+  outline: 1px solid #fff6a4;
 }
 
 .mision-content {
   display: flex;
   gap: 1.2rem;
-  border-left: 1px solid var(--terciary);
+  border-left: 1px solid #fff6a4;
 }
 
 .mision-line {
   width: 1px;
-  background-color: var(--terciary);
+  background-color: #fff6a4;
 }
 
 .mision-title {
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
   margin-top: 2rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 2;
   width: fit-content;
 }
@@ -822,16 +816,16 @@ footer p {
   padding: 1rem 0;
   width: 200px;
   border: none;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   width: fit-content;
   outline: none;
   background-color: transparent;
-  color: var(--secondary);
+  color: #d9d9d9;
   font-size: 18px;
 }
 .contact-form-input::placeholder {
   font-size: 16px;
-  color: var(--secondary);
+  color: #d9d9d9;
 }
 
 .contact-paragraph {
@@ -841,13 +835,13 @@ footer p {
   justify-content: flex-start;
 }
 .contact-paragraph h1 {
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 20px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 2;
   width: fit-content;
 }
@@ -866,15 +860,15 @@ input[type=file] {
   gap: 1rem;
   width: 158px;
   cursor: pointer;
-  fill: var(--secondary);
+  fill: #d9d9d9;
   transition: all 0.5s ease-in;
 }
 .custom-file-input:hover {
-  fill: var(--terciary);
+  fill: #fff6a4;
 }
 
 input[type=button] {
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   padding: 0.8rem 0.5rem;
   width: 150px;
   border: none;
@@ -885,8 +879,8 @@ input[type=button] {
 }
 input[type=button]:hover {
   background-color: transparent;
-  color: var(--secondary);
-  outline: 0.1px solid var(--terciary);
+  color: #d9d9d9;
+  outline: 0.1px solid #fff6a4;
 }
 
 .shop-container {
@@ -898,14 +892,14 @@ input[type=button]:hover {
 }
 
 .shop-title {
-  color: var(--primary);
+  color: #171717;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid #fff6a4;
   letter-spacing: 5.6px;
   margin-top: 2rem;
-  color: var(--secondary);
+  color: #d9d9d9;
   line-height: 2;
   width: fit-content;
 }
@@ -925,18 +919,18 @@ input[type=button]:hover {
   height: 450px;
   padding: 0 1.3rem;
   border-radius: 8px;
-  border: 2px solid var(--terciary);
+  border: 2px solid #fff6a4;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
 .shop-card h5 {
-  color: var(--primary);
+  color: #171717;
   background-color: #fff6a4;
   padding: 0.2rem;
 }
 .shop-card p {
-  color: var(--secondary);
+  color: #d9d9d9;
   text-align: center;
 }
 .shop-card span {
@@ -946,14 +940,14 @@ input[type=button]:hover {
   width: 100%;
 }
 .shop-card span .shop-name {
-  background-color: var(--terciary);
-  color: var(--primary);
+  background-color: #fff6a4;
+  color: #171717;
   padding: 0.2rem;
   border-radius: 4px;
   min-width: 100px;
 }
 .shop-card span .shop-price {
-  border-bottom: 1px solid var(--terciary);
+  border-bottom: 1px solid #fff6a4;
 }
 .shop-card img {
   width: 177px;
@@ -972,7 +966,7 @@ input[type=button]:hover {
   transition: all 0.5s ease-in;
 }
 .buttons-container .button-shop-order {
-  background-color: var(--terciary);
+  background-color: #fff6a4;
   padding: 1rem 0.8rem;
   border: none;
   border-radius: 4px;
@@ -982,8 +976,8 @@ input[type=button]:hover {
 }
 .buttons-container .button-shop-order:hover {
   background-color: transparent;
-  color: var(--secondary);
-  outline: 0.1px solid var(--terciary);
+  color: #d9d9d9;
+  outline: 0.1px solid #fff6a4;
   transition: all 0.5s ease-in;
 }
 .buttons-container .button-shop-filter {
@@ -991,15 +985,15 @@ input[type=button]:hover {
   padding: 1rem 0.8rem;
   border-radius: 4px;
   width: 200px;
-  color: var(--secondary);
-  border: 2px solid var(--terciary);
+  color: #d9d9d9;
+  border: 2px solid #fff6a4;
   font-weight: bold;
   cursor: pointer;
 }
 .buttons-container .button-shop-filter:hover {
   transition: all 0.5s ease-in;
-  background-color: var(--terciary);
-  color: var(--primary);
+  background-color: #fff6a4;
+  color: #171717;
 }
 
 @media (max-width: 720px) {

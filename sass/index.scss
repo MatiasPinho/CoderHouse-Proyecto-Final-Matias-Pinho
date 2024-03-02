@@ -1,20 +1,4 @@
-$color_1: var(--secondary);
-$color_2: currentColor;
-$color_3: var(--terciary);
-$color_4: #ffff;
-$color_5: white;
-$color_6: var(--primary);
-$font-family_1: "Poppins";
-$font-family_2: "Poiret One";
-$background-color_1: var(--secondary);
-$background-color_2: var(--primary);
-$background-color_3: #171717;
-$background-color_4: var(--terciary);
-$background-color_5: #000000f7;
-$background-color_6: transparent;
-$background-color_7: #fff6a4;
-$background-color_8: rgb(0 0 0 / 89%);
-
+@import "variables";
 @import "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@300;400;700&display=swap";
 
 @keyframes moveDown {
@@ -27,11 +11,6 @@ $background-color_8: rgb(0 0 0 / 89%);
   }
 }
 
-:root {
-  --primary: #171717;
-  --secondary: #d9d9d9;
-  --terciary: #fff6a4;
-}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -258,7 +237,7 @@ main {
   &:hover {
     background-color: $background-color_6;
     color: $color_1;
-    outline: 0.1px solid var(--terciary);
+    outline: 0.1px solid $tertiary;
     transition: all 0.5s ease-in;
   }
 }
@@ -281,7 +260,7 @@ main {
 
 .circle-scroll {
   border-radius: 50%;
-  border: 2px solid var(--terciary);
+  border: 2px solid $tertiary;
   display: flex;
   min-height: 50px;
   min-width: 50px;
@@ -311,7 +290,7 @@ main {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   letter-spacing: 5.6px;
   margin-left: 20px;
   margin-top: 2rem;
@@ -336,7 +315,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
+  box-shadow: 7px 8px 15px -9px $tertiary;
   background-color: $background-color_4;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -368,7 +347,7 @@ main {
   align-items: center;
   max-width: 250px;
   height: 430px;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
+  box-shadow: 7px 8px 15px -9px $tertiary;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -411,7 +390,7 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 7px 8px 15px -9px var(--terciary);
+    box-shadow: 7px 8px 15px -9px $tertiary;
   }
   p {
     position: absolute;
@@ -466,7 +445,7 @@ main {
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   z-index: 2;
-  fill: var(--terciary);
+  fill: $tertiary;
   &:hover {
     transform: scale(1.1);
   }
@@ -487,7 +466,7 @@ strong {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   letter-spacing: 5.6px;
   margin-left: 20px;
   margin-top: 2rem;
@@ -515,7 +494,7 @@ strong {
   height: 460px;
   background-color: $background-color_1;
   position: relative;
-  box-shadow: 7px 8px 15px -9px var(--terciary);
+  box-shadow: 7px 8px 15px -9px $tertiary;
   background-color: $background-color_2;
   border-radius: 8px;
   img {
@@ -567,7 +546,7 @@ strong {
   color: $color_1;
 }
 footer {
-  border-top: 2px solid var(--terciary);
+  border-top: 2px solid $tertiary;
   background-color: $background-color_2;
   display: flex;
   padding: 2rem;
@@ -610,7 +589,7 @@ footer {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   letter-spacing: 5.6px;
   margin-top: 2rem;
   color: $color_1;
@@ -632,7 +611,7 @@ footer {
   display: flex;
   flex-direction: column;
   height: 400px;
-  outline: 2px solid var(--terciary);
+  outline: 2px solid $tertiary;
   border-radius: 8px;
   position: relative;
   gap: 1rem;
@@ -701,7 +680,7 @@ footer {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   letter-spacing: 5.6px;
   margin-top: 2rem;
   color: $color_1;
@@ -749,13 +728,13 @@ footer {
     display: flex;
     border-radius: 50%;
     padding: 0.6rem;
-    outline: 1px solid var(--terciary);
+    outline: 1px solid $tertiary;
   }
 }
 .mision-content {
   display: flex;
   gap: 1.2rem;
-  border-left: 1px solid var(--terciary);
+  border-left: 1px solid $tertiary;
 }
 .mision-line {
   width: 1px;
@@ -766,7 +745,7 @@ footer {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   letter-spacing: 5.6px;
   margin-top: 2rem;
   color: $color_1;
@@ -796,7 +775,7 @@ footer {
   padding: 1rem 0;
   width: 200px;
   border: none;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   width: fit-content;
   outline: none;
   background-color: $background-color_6;
@@ -817,7 +796,7 @@ footer {
     font-family: $font-family_2;
     font-size: 20px;
     font-weight: 600;
-    border-bottom: 2px solid var(--terciary);
+    border-bottom: 2px solid $tertiary;
     letter-spacing: 5.6px;
     color: $color_1;
     line-height: 2;
@@ -837,10 +816,10 @@ input[type="file"] {
   gap: 1rem;
   width: 158px;
   cursor: pointer;
-  fill: var(--secondary);
+  fill: $secondary;
   transition: all 0.5s ease-in;
   &:hover {
-    fill: var(--terciary);
+    fill: $tertiary;
   }
 }
 input[type="button"] {
@@ -855,7 +834,7 @@ input[type="button"] {
   &:hover {
     background-color: $background-color_6;
     color: $color_1;
-    outline: 0.1px solid var(--terciary);
+    outline: 0.1px solid $tertiary;
   }
 }
 .shop-container {
@@ -870,7 +849,7 @@ input[type="button"] {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  border-bottom: 2px solid $tertiary;
   letter-spacing: 5.6px;
   margin-top: 2rem;
   color: $color_1;
@@ -891,7 +870,7 @@ input[type="button"] {
   height: 450px;
   padding: 0 1.3rem;
   border-radius: 8px;
-  border: 2px solid var(--terciary);
+  border: 2px solid $tertiary;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
@@ -917,7 +896,7 @@ input[type="button"] {
       min-width: 100px;
     }
     .shop-price {
-      border-bottom: 1px solid var(--terciary);
+      border-bottom: 1px solid $tertiary;
     }
   }
   img {
@@ -937,7 +916,7 @@ input[type="button"] {
   transition: all 0.5s ease-in;
 
   .button-shop-order {
-    background-color: var(--terciary);
+    background-color: $tertiary;
     padding: 1rem 0.8rem;
     border: none;
     border-radius: 4px;
@@ -947,8 +926,8 @@ input[type="button"] {
 
     &:hover {
       background-color: transparent;
-      color: var(--secondary);
-      outline: 0.1px solid var(--terciary);
+      color: $secondary;
+      outline: 0.1px solid $tertiary;
       transition: all 0.5s ease-in;
     }
   }
@@ -958,15 +937,15 @@ input[type="button"] {
     padding: 1rem 0.8rem;
     border-radius: 4px;
     width: 200px;
-    color: var(--secondary);
-    border: 2px solid var(--terciary);
+    color: $secondary;
+    border: 2px solid $tertiary;
     font-weight: bold;
     cursor: pointer;
 
     &:hover {
       transition: all 0.5s ease-in;
-      background-color: var(--terciary);
-      color: var(--primary);
+      background-color: $tertiary;
+      color: $primary;
     }
   }
 }
