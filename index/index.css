@@ -683,6 +683,9 @@ footer p {
   gap: 0.2rem;
   align-items: center;
 }
+.reviews-card-name-profession h2 {
+  font-size: 16px;
+}
 .reviews-card-name-profession p {
   font-size: 13px;
 }
