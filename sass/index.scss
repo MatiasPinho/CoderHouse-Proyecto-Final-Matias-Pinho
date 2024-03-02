@@ -610,12 +610,12 @@ footer {
   font-family: $font-family_2;
   font-size: 16px;
   font-weight: 600;
-  border-bottom: 2px solid var(--terciary);
+  // border-bottom: 2px solid var(--terciary);
   letter-spacing: 5.6px;
   margin-top: 2rem;
   color: $color_1;
   line-height: 3;
-  width: fit-content;
+  // width: fit-content;
 }
 .reviews-cards-container {
   display: flex;
