@@ -41,7 +41,6 @@ body {
   font-family: "Poppins";
   color: var(--secondary);
   scroll-behavior: smooth;
-  max-width: 2000px;
 }
 
 header {
