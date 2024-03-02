@@ -317,6 +317,7 @@ main {
   margin-top: 2rem;
   color: $color_1;
   line-height: 2;
+  width: fit-content;
 }
 .new-products-galery-text-container {
   display: flex;
@@ -492,6 +493,7 @@ strong {
   margin-top: 2rem;
   color: $color_1;
   line-height: 2;
+  width: fit-content;
 }
 .catalog-offer-container-galery {
   display: flex;
@@ -613,6 +615,7 @@ footer {
   margin-top: 2rem;
   color: $color_1;
   line-height: 3;
+  width: fit-content;
 }
 .reviews-cards-container {
   display: flex;
@@ -703,7 +706,7 @@ footer {
   margin-top: 2rem;
   color: $color_1;
   line-height: 2;
-  width: 15ch;
+  width: fit-content;
 }
 .about-paragraph-mission-container {
   display: flex;
@@ -768,7 +771,7 @@ footer {
   margin-top: 2rem;
   color: $color_1;
   line-height: 2;
-  width: 13ch;
+  width: fit-content;
 }
 .mision-h5 {
   width: 0px;
@@ -794,6 +797,7 @@ footer {
   width: 200px;
   border: none;
   border-bottom: 2px solid var(--terciary);
+  width: fit-content;
   outline: none;
   background-color: $background-color_6;
   color: $color_1;
@@ -817,7 +821,7 @@ footer {
     letter-spacing: 5.6px;
     color: $color_1;
     line-height: 2;
-    width: 17ch;
+    width: fit-content;
   }
   p {
     max-width: 30ch;
@@ -871,7 +875,7 @@ input[type="button"] {
   margin-top: 2rem;
   color: $color_1;
   line-height: 2;
-  width: 17ch;
+  width: fit-content;
 }
 .shop-products-show {
   display: grid;

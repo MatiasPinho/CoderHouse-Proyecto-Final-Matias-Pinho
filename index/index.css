@@ -301,6 +301,7 @@ main {
   margin-top: 2rem;
   color: var(--secondary);
   line-height: 2;
+  width: fit-content;
 }
 
 .new-products-galery-text-container {
@@ -488,6 +489,7 @@ strong {
   margin-top: 2rem;
   color: var(--secondary);
   line-height: 2;
+  width: fit-content;
 }
 
 .catalog-offer-container-galery {
@@ -621,6 +623,7 @@ footer p {
   margin-top: 2rem;
   color: var(--secondary);
   line-height: 3;
+  width: fit-content;
 }
 
 .reviews-cards-container {
@@ -717,7 +720,7 @@ footer p {
   margin-top: 2rem;
   color: var(--secondary);
   line-height: 2;
-  width: 15ch;
+  width: fit-content;
 }
 
 .about-paragraph-mission-container {
@@ -789,7 +792,7 @@ footer p {
   margin-top: 2rem;
   color: var(--secondary);
   line-height: 2;
-  width: 13ch;
+  width: fit-content;
 }
 
 .mision-h5 {
@@ -820,6 +823,7 @@ footer p {
   width: 200px;
   border: none;
   border-bottom: 2px solid var(--terciary);
+  width: fit-content;
   outline: none;
   background-color: transparent;
   color: var(--secondary);
@@ -845,7 +849,7 @@ footer p {
   letter-spacing: 5.6px;
   color: var(--secondary);
   line-height: 2;
-  width: 17ch;
+  width: fit-content;
 }
 .contact-paragraph p {
   max-width: 30ch;
@@ -903,7 +907,7 @@ input[type=button]:hover {
   margin-top: 2rem;
   color: var(--secondary);
   line-height: 2;
-  width: 17ch;
+  width: fit-content;
 }
 
 .shop-products-show {
