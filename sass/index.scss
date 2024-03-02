@@ -971,7 +971,7 @@ input[type="button"] {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 720px) {
   .nav-mobile {
     display: flex;
     width: 100%;
@@ -1070,7 +1070,7 @@ input[type="button"] {
     }
   }
 }
-@media screen and (max-width: 580px) {
+@media (max-width: 580px) {
   .hero-texts {
     align-items: center;
     gap: 2.5rem;
@@ -1095,12 +1095,12 @@ input[type="button"] {
     margin-bottom: 2.5rem;
   }
 }
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .reviews-cards-container {
     max-width: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .reviews-card-paragraph {
     max-width: 30ch;
     font-size: 14px;
