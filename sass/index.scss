@@ -804,7 +804,7 @@ footer {
   color: $color_1;
   font-size: 18px;
   &::placeholder {
-    font-size: 18px;
+    font-size: 16px;
     color: $color_1;
   }
 }
@@ -826,7 +826,7 @@ footer {
   }
   p {
     max-width: 30ch;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 input[type="file"] {

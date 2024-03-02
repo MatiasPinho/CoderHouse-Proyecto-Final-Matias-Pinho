@@ -831,7 +831,7 @@ footer p {
   font-size: 18px;
 }
 .contact-form-input::placeholder {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--secondary);
 }
 
@@ -854,7 +854,7 @@ footer p {
 }
 .contact-paragraph p {
   max-width: 30ch;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 input[type=file] {
