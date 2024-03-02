@@ -724,6 +724,7 @@ footer p {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
 }
 
