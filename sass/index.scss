@@ -847,12 +847,11 @@ input[type="button"] {
   outline: none;
   cursor: pointer;
   border-radius: 4px;
-  transition: all 0.5s ease-in;
+  transition: 0.5s ease-in;
   &:hover {
     background-color: $background-color_6;
     color: $color_1;
     outline: 0.1px solid var(--terciary);
-    transition: all 0.5s ease-in;
   }
 }
 .shop-container {
