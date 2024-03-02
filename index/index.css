@@ -576,7 +576,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-footer h4 {
+footer .footer-title {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 14.4px;
@@ -835,7 +835,7 @@ footer p {
   gap: 1.5rem;
   justify-content: flex-start;
 }
-.contact-paragraph h2 {
+.contact-paragraph h1 {
   color: var(--primary);
   font-family: "Poiret One";
   font-size: 20px;

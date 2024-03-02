@@ -572,7 +572,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  h4 {
+  .footer-title {
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 14.4px;
@@ -807,7 +807,7 @@ footer {
   flex-direction: column;
   gap: 1.5rem;
   justify-content: flex-start;
-  h2 {
+  h1 {
     color: $color_6;
     font-family: $font-family_2;
     font-size: 20px;
