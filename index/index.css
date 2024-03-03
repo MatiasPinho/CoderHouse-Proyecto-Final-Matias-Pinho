@@ -694,7 +694,7 @@ footer p {
   margin: 4rem 0;
   padding: 1rem 0;
 }
-.about-container h5 {
+.about-container h3 {
   transform: rotate(90deg);
   font-family: "Poiret One";
   font-size: 70px;
@@ -789,7 +789,7 @@ footer p {
   width: fit-content;
 }
 
-.mision-h5 {
+.mision-h3 {
   width: 0px;
   height: 72%;
 }
@@ -1054,7 +1054,7 @@ input[type=button]:hover {
     height: auto;
     padding: 4rem 0;
   }
-  .mision-h5 {
+  .mision-h3 {
     display: none;
   }
   .about-title {
