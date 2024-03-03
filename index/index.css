@@ -929,6 +929,7 @@ input[type=button]:hover {
   background-color: rgb(255, 246, 164);
   padding: 0.5rem;
   border-radius: 4px;
+  text-align: center;
 }
 .shop-card p {
   color: #d9d9d9;
