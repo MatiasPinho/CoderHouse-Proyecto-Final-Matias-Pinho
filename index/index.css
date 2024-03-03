@@ -23,7 +23,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #171717;
+  background-color: #1a1b20;
 }
 
 html {
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  background-color: #171717;
+  background-color: #1a1b20;
   font-family: "Poppins";
   color: #d9d9d9;
   scroll-behavior: smooth;
@@ -44,7 +44,7 @@ header {
   font-size: 13px;
   position: fixed;
   z-index: 2;
-  background-color: #171717;
+  background-color: #1a1b20;
 }
 
 .nav-mobile {
@@ -151,7 +151,7 @@ nav ul li:hover a::before {
   flex-direction: column;
   gap: 2rem;
   left: 103%;
-  background-color: rgba(0, 0, 0, 0.89);
+  background-color: rgba(0, 0, 0, 0.8901960784);
   top: 0;
   width: 100%;
   transition: 0.5s ease all;
@@ -220,7 +220,7 @@ main {
   padding: 0.9rem 0.6rem;
   width: 150px;
   border-radius: 4px;
-  color: #171717;
+  color: #1a1b20;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
@@ -285,7 +285,7 @@ main {
 
 .new-products-title {
   align-self: flex-start;
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
@@ -362,7 +362,7 @@ main {
 .image2 p {
   position: absolute;
   font-size: 20px;
-  color: #171717;
+  color: #1a1b20;
   font-weight: bold;
 }
 .image2 img {
@@ -473,7 +473,7 @@ strong {
 
 .catalog-offer-title {
   align-self: flex-start;
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
@@ -509,7 +509,7 @@ strong {
   background-color: #d9d9d9;
   position: relative;
   box-shadow: 7px 8px 15px -9px #fff6a4;
-  background-color: #171717;
+  background-color: #1a1b20;
   border-radius: 8px;
 }
 .catalog-offer-image img {
@@ -519,7 +519,7 @@ strong {
 }
 .catalog-offer-image a {
   text-decoration: none;
-  color: #171717;
+  color: #1a1b20;
 }
 
 .button-offer-one {
@@ -565,7 +565,7 @@ strong {
 
 footer {
   border-top: 2px solid #fff6a4;
-  background-color: #171717;
+  background-color: #1a1b20;
   display: flex;
   padding: 2rem;
   justify-content: space-evenly;
@@ -608,7 +608,7 @@ footer p {
 }
 
 .reviews-container-title {
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
@@ -705,7 +705,7 @@ footer p {
 }
 
 .about-title {
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
@@ -777,7 +777,7 @@ footer p {
 }
 
 .mision-title {
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
@@ -835,7 +835,7 @@ footer p {
   justify-content: flex-start;
 }
 .contact-paragraph h1 {
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 20px;
   font-weight: 600;
@@ -892,7 +892,7 @@ input[type=button]:hover {
 }
 
 .shop-title {
-  color: #171717;
+  color: #1a1b20;
   font-family: "Poiret One";
   font-size: 16px;
   font-weight: 600;
@@ -926,7 +926,7 @@ input[type=button]:hover {
 }
 .shop-card h5 {
   color: rgb(23, 23, 23);
-  background-color: rgb(255, 246, 164);
+  background-color: #fff6a4;
   padding: 0.5rem;
   border-radius: 4px;
   text-align: center;
@@ -943,7 +943,7 @@ input[type=button]:hover {
 }
 .shop-card span .shop-name {
   background-color: #fff6a4;
-  color: #171717;
+  color: #1a1b20;
   padding: 0.2rem;
   border-radius: 4px;
   min-width: 100px;
@@ -995,7 +995,7 @@ input[type=button]:hover {
 .buttons-container .button-shop-filter:hover {
   transition: all 0.5s ease-in;
   background-color: #fff6a4;
-  color: #171717;
+  color: #1a1b20;
 }
 
 @media (max-width: 720px) {
