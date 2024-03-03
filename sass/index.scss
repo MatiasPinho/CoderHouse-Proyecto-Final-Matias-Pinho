@@ -867,17 +867,18 @@ input[type="button"] {
 .shop-card {
   display: flex;
   width: 300px;
-  height: 450px;
-  padding: 0 1.3rem;
+  padding: 1.5rem 1.3rem;
+  gap: 1em;
   border-radius: 8px;
-  border: 2px solid $tertiary;
-  justify-content: space-evenly;
+  border: 2px solid #fff6a4;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   h5 {
-    color: $color_6;
-    background-color: $background-color_7;
-    padding: 0.2rem;
+    color: rgb(23, 23, 23);
+    background-color: rgb(255, 246, 164);
+    padding: 0.5rem;
+    border-radius: 4px;
   }
   p {
     color: $color_1;
@@ -900,8 +901,8 @@ input[type="button"] {
     }
   }
   img {
-    width: 177px;
-    height: 234px;
+    width: 200px;
+    height: 300px;
     transition: transform 0.3s ease-in-out;
     object-fit: cover;
   }

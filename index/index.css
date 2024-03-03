@@ -916,18 +916,19 @@ input[type=button]:hover {
 .shop-card {
   display: flex;
   width: 300px;
-  height: 450px;
-  padding: 0 1.3rem;
+  padding: 1.5rem 1.3rem;
+  gap: 1em;
   border-radius: 8px;
   border: 2px solid #fff6a4;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
 .shop-card h5 {
-  color: #171717;
-  background-color: #fff6a4;
-  padding: 0.2rem;
+  color: rgb(23, 23, 23);
+  background-color: rgb(255, 246, 164);
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 .shop-card p {
   color: #d9d9d9;
@@ -950,8 +951,8 @@ input[type=button]:hover {
   border-bottom: 1px solid #fff6a4;
 }
 .shop-card img {
-  width: 177px;
-  height: 234px;
+  width: 200px;
+  height: 300px;
   transition: transform 0.3s ease-in-out;
   object-fit: cover;
 }
