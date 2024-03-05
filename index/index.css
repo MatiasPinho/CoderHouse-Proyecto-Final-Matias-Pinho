@@ -469,7 +469,6 @@ strong {
   flex-direction: column;
   padding: 1rem 0;
   align-items: center;
-  position: relative;
 }
 
 .catalog-offer-title {
@@ -868,7 +867,7 @@ input[type=file] {
   fill: #fff6a4;
 }
 
-input[type=button] {
+input[type=submit] {
   background-color: #fff6a4;
   padding: 0.8rem 0.5rem;
   width: 150px;
@@ -878,7 +877,7 @@ input[type=button] {
   border-radius: 4px;
   transition: 0.5s ease-in;
 }
-input[type=button]:hover {
+input[type=submit]:hover {
   background-color: transparent;
   color: #d9d9d9;
   outline: 0.1px solid #fff6a4;

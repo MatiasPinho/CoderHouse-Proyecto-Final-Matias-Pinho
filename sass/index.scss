@@ -460,7 +460,6 @@ strong {
   flex-direction: column;
   padding: 1rem 0;
   align-items: center;
-  position: relative;
 }
 .catalog-offer-title {
   align-self: flex-start;
@@ -824,7 +823,7 @@ input[type="file"] {
     fill: $tertiary;
   }
 }
-input[type="button"] {
+input[type="submit"] {
   background-color: $background-color_4;
   padding: 0.8rem 0.5rem;
   width: 150px;
