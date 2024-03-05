@@ -1087,7 +1087,7 @@ input[type=submit]:hover {
   .contact-form input {
     width: 100%;
   }
-  .contact-form input[type=button] {
+  .contact-form input[type=submit] {
     width: 150px;
   }
 }
