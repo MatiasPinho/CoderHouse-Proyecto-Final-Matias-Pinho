@@ -1,0 +1,215 @@
+@media (max-width: 720px) {
+  .nav-mobile {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .colorMode-language {
+    display: flex;
+    gap: 1rem;
+    span {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+  .nav-destokp {
+    display: none;
+  }
+  .new-products-galery-text-container {
+    flex-direction: column;
+    row-gap: 3.2rem;
+    align-items: center;
+  }
+  .image1 {
+    flex: auto;
+    height: 360px;
+  }
+  .image2 {
+    flex: auto;
+    height: 360px;
+  }
+  .image3 {
+    flex: auto;
+    height: 360px;
+  }
+  .catalog-offer-container-galery {
+    flex-direction: column;
+    row-gap: 6.5rem;
+  }
+  .catalog-offer-image-text {
+    position: static;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews-card-paragraph {
+    max-width: 30ch;
+    font-size: 14px;
+  }
+  .reviews-card-img-container {
+    width: 140px;
+    height: 148px;
+  }
+  .contact-paragraph {
+    h2 {
+      font-size: 18px;
+      width: 18ch;
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+
+      margin: 0 auto;
+    }
+  }
+  .contact-form-input {
+    font-size: 16px;
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+
+  .about-paragraph-container {
+    max-width: 95%;
+    text-align: center;
+  }
+
+  .mision-content {
+    margin: 0 0.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-texts {
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .hero-title {
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  .hero-image {
+    position: static;
+    width: 249px;
+    height: 340px;
+  }
+  .hero-content {
+    flex-direction: column;
+    max-width: none;
+  }
+  .hero-section-container {
+    gap: 2.5rem;
+  }
+  .circle-scroll {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .nav-mobile {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .colorMode-language {
+    display: flex;
+    gap: 1rem;
+    span {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+  .nav-destokp {
+    display: none;
+  }
+  .new-products-galery-text-container {
+    flex-direction: column;
+    row-gap: 3.2rem;
+    align-items: center;
+  }
+  .image1 {
+    flex: auto;
+    height: 360px;
+  }
+  .image2 {
+    flex: auto;
+    height: 360px;
+  }
+  .image3 {
+    flex: auto;
+    height: 360px;
+  }
+  .catalog-offer-container-galery {
+    flex-direction: column;
+    row-gap: 6.5rem;
+  }
+  .catalog-offer-image-text {
+    position: static;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 2rem;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .about-container {
+    height: auto;
+    padding: 4rem 0;
+  }
+  .mision-h3 {
+    display: none;
+  }
+  .about-title {
+    margin: 0 auto;
+  }
+  .about-paragraph-container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .mision-title {
+    margin: 0 auto;
+  }
+  .about-paragraph-mission-container {
+    row-gap: 3rem;
+  }
+  .contact-container {
+    flex-direction: column-reverse;
+
+    row-gap: 3.3rem;
+    padding: 5rem 0;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .contact-paragraph {
+    p {
+      max-width: none;
+    }
+  }
+
+  .contact-form {
+    input {
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .reviews-cards-container {
+    max-width: none;
+  }
+}

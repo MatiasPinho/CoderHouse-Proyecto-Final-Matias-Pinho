@@ -1,0 +1,140 @@
+header {
+  width: 100vw;
+  height: 4rem;
+  color: $color_1;
+  font-size: 13px;
+  position: fixed;
+  z-index: 2;
+  background-color: $background-color_3;
+}
+.nav-mobile {
+  display: none;
+}
+.nav-destokp {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  svg {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+      transform: rotate(20deg);
+      transition: all 0.5s ease;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style-type: none;
+    position: relative;
+    li {
+      cursor: pointer;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $background-color_4;
+        transition: width 0.5s ease;
+      }
+      a {
+        text-decoration: none;
+        color: $color_2;
+        position: relative;
+      }
+    }
+  }
+  span {
+    display: flex;
+    gap: 0.4rem;
+    &:nth-child(1) {
+      cursor: pointer;
+      &:hover {
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+        color: $color_4;
+      }
+    }
+    &:nth-child(3) {
+      cursor: pointer;
+      &:hover {
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+        color: $color_4;
+      }
+    }
+  }
+}
+nav {
+  ul {
+    li.active {
+      &::before {
+        width: 100%;
+      }
+    }
+    li {
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+        a {
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.active {
+  color: $color_3;
+}
+.hamburger-menu {
+  z-index: 1;
+}
+.nav_input {
+  display: none;
+  &:checked {
+    + {
+      .nav_menu {
+        left: 0;
+      }
+      .hamburger-menu {
+        svg {
+          path {
+            fill: red;
+          }
+        }
+      }
+    }
+  }
+}
+.nav_menu {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  left: 103%;
+  background-color: $background-color_8;
+  top: 0;
+  width: 100%;
+  transition: 0.5s ease all;
+  height: 100vh;
+  list-style: none;
+  padding-top: 5rem;
+  a {
+    text-decoration: underline;
+    color: $color_5;
+    font-size: 30px;
+  }
+}

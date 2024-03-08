@@ -1,0 +1,32 @@
+footer {
+  border-top: 2px solid $tertiary;
+  background-color: $background-color_2;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  .footer-title {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 14.4px;
+    color: $color_3;
+  }
+  p {
+    color: $color_1;
+  }
+}
+.c1-footer {
+  display: flex;
+  flex-direction: column;
+}
+.c2-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.c3-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
