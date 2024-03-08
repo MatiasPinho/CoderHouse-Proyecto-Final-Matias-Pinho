@@ -36,6 +36,29 @@ body {
   color: $color_1;
   scroll-behavior: smooth;
 }
+
+.body {
+  background-color: $background-color_2;
+  font-family: $font-family_1;
+}
+
+.fs-60 {
+  font-size: 120px;
+}
+
+.text-warning-bs {
+  color: $color_3;
+}
+
+.image-black {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.image-black:hover {
+  filter: grayscale(0%);
+}
+
 header {
   width: 100vw;
   height: 4rem;
