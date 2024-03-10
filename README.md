@@ -18,3 +18,8 @@ Este proyecto representa el resultado de mi trabajo durante el curso de CoderHou
 
 Puedes probar la aplicación accediendo al siguiente enlace: [Suavify - Ecommerce de ropa](https://suavify.netlify.app/)
 
+## Futuras Mejoras
+
+- Migrar el proyecto a React para mejorar la eficiencia y mantenibilidad del código.
+- Implementar una base de datos para gestionar los productos, usuarios y transacciones, lo que permitirá una experiencia más interactiva y personalizada para los usuarios.
+
