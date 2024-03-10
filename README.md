@@ -13,6 +13,7 @@ Este proyecto representa el resultado de mi trabajo durante el curso de CoderHou
 ![Captura de pantalla 1](https://github.com/MatiasPinho/CoderHouse-Proyecto-Final-Matias-Pinho.io/assets/101824576/b794275b-5f06-44aa-a9a9-04eed427383a)
 ![Captura de pantalla 2](https://github.com/MatiasPinho/CoderHouse-Proyecto-Final-Matias-Pinho.io/assets/101824576/91e18427-8117-40f6-90ee-1d2bf0af18af)
 ![Captura de pantalla 3](https://github.com/MatiasPinho/CoderHouse-Proyecto-Final-Matias-Pinho.io/assets/101824576/4243d5af-b1e0-4b8f-9fd4-5c4a168950fb)
+![141shots_so](https://github.com/MatiasPinho/CoderHouse-Proyecto-Final-Matias-Pinho.io/assets/101824576/88ad72b7-1e60-4a23-8f39-290ad15fb843)
 
 ## Cómo probarlo
 
